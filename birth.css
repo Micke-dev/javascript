@@ -1,0 +1,51 @@
+* {
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    form,h1,h2 {
+        display:block;
+        width: 500px;
+        margin-bottom: 8px;
+        padding: 8px;
+    }
+
+form input,
+form textarea,
+form button {
+    display:block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+h1 {
+    background-color:blueviolet;
+    color: black;
+}
+
+h2{
+    background-color:rgb(93, 205, 138);
+}
+
+.error-message {
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+}
+
+button {
+    color:black;
+    background-color: goldenrod;
+}
+
+form button:hover {
+    background-color:gold;
+}
+
